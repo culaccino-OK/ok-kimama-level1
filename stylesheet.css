@@ -1,0 +1,167 @@
+html, body,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color:rgba(34, 49, 52, 0.9);
+    color:white;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 124px;
+    font-size: 50px;
+}
+
+.header-right {
+    float: right;
+    background-color:rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    display: block;
+    line-height: 65px;
+    padding: 0 25px;
+    color:white;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    text-align: center;
+    background-image:url();
+    background-size: cover;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    opacity: 0.7;
+}
+
+.top-wrapper p {
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 5px;
+    opacity: 0.8;
+    color:white;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signup {
+    margin-right: 10px;
+    background-color:green;
+}
+
+.instagram {
+    margin-right: 10px;
+    background-color:darkred;
+}
+
+.twitter {
+    background-color:#55acee;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.lesson-wrapper {
+    height: 600px;
+    text-align: center;
+    background-color:#f7f7f7;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:#5f5d60;
+}
+
+.heading h2 {
+    font-weight: noarmal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.text-contents {
+    display: inline-block;
+    width: 80%;
+    margin-top: 15px;
+    font-size: 13px;
+    color:#b3aeb5;
+}
+
+.message-wrapper {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color:#5dca88;
+    box-shadow: 0 8px #1a7940;
+    cursor: pointer;
+}
+
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 8px;
+}
+
+footer {
+    padding: 25px 0;
+    border-top:1px solid #eee;
+}
+
+footer p {
+    font-size: 13px;
+    color:#b3aeb5;
+}
+
+footer h3 {
+    font-size: 20px;
+}
